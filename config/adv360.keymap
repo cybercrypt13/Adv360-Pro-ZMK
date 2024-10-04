@@ -33,6 +33,30 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        leftArrow {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <65 40>;
+        };
+
+        downArrow {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <65 41>;
+        };
+
+        upArrow {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <65 42>;
+        };
+
+        rightArrow {
+            bindings = <&kp RIGHT>;
+            key-positions = <65 43>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
