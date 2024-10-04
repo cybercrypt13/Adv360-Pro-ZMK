@@ -38,22 +38,22 @@
 
         leftArrow {
             bindings = <&kp LEFT_ARROW>;
-            key-positions = <65 40>;
+            key-positions = <40 70>;
         };
 
         downArrow {
             bindings = <&kp DOWN_ARROW>;
-            key-positions = <65 41>;
+            key-positions = <41 70>;
         };
 
         upArrow {
             bindings = <&kp UP_ARROW>;
-            key-positions = <65 42>;
+            key-positions = <42 70>;
         };
 
         rightArrow {
             bindings = <&kp RIGHT>;
-            key-positions = <65 43>;
+            key-positions = <43 70>;
         };
     };
 
